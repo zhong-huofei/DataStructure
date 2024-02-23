@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "stdio.h": "c"
+    }
+
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+          "source": "PowerShell", //一般推荐使用powershell
+          "overrideName": true,
+          "args": ["-NoExit", "/c", "chcp 65001"],
+          "icon": "terminal-powershell",
+          "env": {
+            "TEST_VAR": "value"
+          }
+        }
+      },
+
+}
